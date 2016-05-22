@@ -1,0 +1,38 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("about:home")
+{
+
+#brandLogo, #snippets, #settings, #restorePreviousSessionSeparator, #downloads, #bookmarks, #history, #addons, #sync
+{ display: none !important; }
+
+#aboutMozilla::before
+{
+	content: url("http://jasdelgado.com/random/n.png");
+	/* dimensions below are kind of weird because i use firefox super scaled up, so they'll have to be adjusted for other screens*/
+	right:57vw;
+	top: 17vh;
+}
+
+#launcher
+{
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#restorePreviousSession::before
+{ content: none !important; }
+
+#searchSubmit
+{
+	box-shadow: none !important;
+	border: none !important;
+	background-color: #88aaaa !important;
+	background-image: none !important;
+	color: #fff;
+}
+
+body
+{ background-color: #2d2d2d; }
+  
+}
