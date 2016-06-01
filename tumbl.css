@@ -1,0 +1,138 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("tumblr.com") {
+
+	/**
+	* tumblr style by jastronaut
+	* ACCENT COLOR: #88aaaa
+	* BACKGROUND COLOR: #e8e6df
+	*/
+	
+	/* hiding */
+	.recommendation-reason-footer, .right_column, .footer_links, #activity_button, #discover_button
+	{ display: none; }
+	
+	.right_column, 
+	{
+		width: 0px;
+	}
+	
+	.l-header-container--refresh
+	{
+		background-color: #88aaaa !important;
+	}
+	
+	.compose-button
+	{
+		fill: #fff !important;
+	}
+	
+	.tab_anchor
+	{
+		transition: all ease-in-out 0.25s;
+	}
+	
+	.tab_anchor:hover
+	{
+		background-color: #fff !important;
+		color: #88aaaa !important;
+		transition: all ease-in-out 0.25s;
+	}
+	
+	.layout_standard, .left_column, .post_avatar, .l-container.l-container--two-column-dashboard .l-content, .l-container.l-container--two-column .l-content
+	{ background-color: #e8e6df !important; }
+	
+	.selected .tab_notice
+	{
+		background:#fff !important;
+		color: #88aaaa !important;
+	}
+	
+	.tab-notice--outlined
+	{
+		border-color: #88aaaa !important;
+		color: #88aaaa !important;
+	}
+	
+	.post_full .post_permalink
+	{
+		border-color: #e8e6df #e8e6df transparent transparent !important;
+	}
+	
+	.reblog_follow_button .follow-text, .worded-follow-button .follow-text
+	{
+		color: #88aaaa !important;
+		text-transform: lowercase;
+	}
+	
+	.chrome, .blue
+	{
+		border-color: #88aaaa !important;
+		background-color:#88aaaa !important;
+		transition-duration: 0.25s !important;
+		transition-property: all;
+		color: #fff !important;
+	}
+	
+	.chrome:hover, .blue:hover
+	{
+		transition-property: all;
+		transition-duration: 0.25s !important;
+		transform: rotateX(180deg);
+		border-color: #fff !important;
+		background-color: #fff !important;
+		color: #88aaaa !important;
+	}
+	
+	.pagination
+	{
+		padding-left: 0px !important;
+		width: auto !important;
+	}
+
+	/**
+	* all after this is stolen from https://userstyles.org/styles/108516/declutter-series-tumblr :(
+	*/
+
+	/* Entire content container width */
+	.l-container
+	{
+  	width: auto;
+	}
+
+	/* Posts column width */
+	#left_column,
+	#search_posts
+	{
+  	width: 80%;
+	}
+
+	/* Post width */
+	.post.post_full
+	{
+  	width: auto;
+	}
+
+	/* Thing in the post width */
+	.note_wrapper
+	{
+  	max-width: 500px;
+  	margin: auto!important;
+	}
+
+	/* Centers pictures and video */
+	.post_media_photo,
+	.photoset,
+	.dockable_video_embed
+	{
+  	margin: auto;
+  	max-width: 540px;
+	}
+
+	/* Disables horizontal scroll */
+	body
+	{
+  	overflow-x: hidden;
+	}
+}
+	
+}
