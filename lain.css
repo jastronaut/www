@@ -1,0 +1,131 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("lainchan.org") {
+	
+	/**
+	* lainchan.org style by jastronaut
+	* use the FAUX style with this for it to look as intended
+	* ACCENT COLOR: #88aaaa
+	* LIGHT BACKGROUND: #515151
+	* DARK BACKGROUND: #2d2d2d
+	* FONT: Futura LT
+	*/
+	
+	/* hiding */
+	.blotter, hr, .bar.bottom, .delete, footer
+	{ display: none !important; }
+	
+	/* general */
+	body
+	{
+		font-family: "Futura LT";
+		background-color: #515151 !important;
+		color: #e8e6df;
+		font-size: 13px;
+		padding-bottom: 20px !important;
+	}
+	
+	a
+	{
+		transition: all 0.25s ease-in-out;
+		color: #88aaaa !important;
+	}
+	
+	a:hover
+	{
+		transition: all 0.25s ease-in-out;
+		color: #fff !important;
+		background-color: #88aaaa !important;
+		text-decoration: none !important;
+	}
+	
+	/* decorations */
+	.boardlist
+	{
+		padding-top: 2px !important;
+		padding-bottom: 2px !important;
+		font-size: 12px !important;	
+	}
+	
+	.banner
+	{
+		background: #2d2d2d !important;
+		color: #88aaaa !important;
+	}
+	
+	th
+	{
+		color: #88aaaa !important;
+		background: #2d2d2d !important;
+		border-color: #88aaaa !important;
+		padding: 5px !important;
+	}
+	
+	input[type="text"], textarea, select
+	{
+		background: #2d2d2d !important;
+		padding: 5px !important;
+		border-color: #88aaaa !important;
+	}
+	
+	td > input[type="submit"]
+	{
+		background: #2d2d2d !important;
+		border-color: #88aaaa !important;
+		color: #fff !important;
+	}
+	
+	td > input[type="submit"]:hover
+	{
+		transition: all 0.25s ease !important;
+		background-color: #88aaaa !important;
+		color: #fff !important;
+	}
+	
+	/* catalog */
+	.theme-catalog div.thread
+	{
+		font-size: 13px !important;
+		background-color: #515151;
+		padding: 10px 10px 10px 10px !important;
+		border-color: #515151;
+	}
+	.theme-catalog div.thread:hover
+	{
+		transition: all 0.25s ease;
+		background-color: #2d2d2d !important;
+		border-color: #88aaaa !important;
+	}
+	
+	/* post */
+	.thread
+	{
+		padding: 0px 20px 0px 20px !important;
+	}
+	.body
+	{
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	.subject
+	{
+		font-size: 100% !important;
+		color: #e8e6df !important;
+	}
+	
+	/* post replies */
+	.name
+	{
+		color: #88aaaa !important;
+	}
+	
+	.reply
+	{
+		padding: 10px 20px 10px 20px !important;
+		border-color: #88aaaa !important;
+		background-color: #2d2d2d !important;
+		border-radius: 5px !important;
+	}
+	
+	.quote
+	{ color: #7CBF9E !important; }
+}
