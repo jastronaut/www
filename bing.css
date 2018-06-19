@@ -1,0 +1,282 @@
+/*
+* commented out because i use safari and don't need this
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("bing.com") {
+*/
+/*
+link color
+	#88aaaa
+visited link color
+	#377777
+green
+	#A3BE8C
+red
+	#ab4642
+grey
+	#c0c0c0
+*/
+
+/* font */
+body {
+	font-family: 'Helvetica' !important;
+	color: #2d2d2d;
+}
+
+.cCodeBg, .techc_linehl {
+	font-family: 'Monaco' !important;
+}
+
+/* hide bing logo, footer, feedback */
+.b_logo, .b_footer, #fbpgbt {
+	display: none !important;
+}
+
+/* selected page @ bottom */
+.b_pag a.sb_pagS_bp {
+	border-color: #A3BE8C !important;
+}
+
+/* make top bar separator transparent */
+#b_header .b_scopebar .scopebar_pipe {
+	color: rgba(0, 0, 0, 0) !important;
+}
+
+/* ******** SEARCH BOX ********* */
+.b_searchboxForm {
+	font-family: 'Helvetica' !important;
+	color: #c0c0c0 !important;
+}
+
+/* previously searched item */
+#sw_as .sa_as .sa_drw .sa_sg .sa_tmHS, #sw_as .sa_as .sa_drw .sa_sg div.sa_tmHS strong {
+	color: #377777 !important;
+}
+
+/* ******** MAIN PAGE ********* */
+
+/* results count */
+.sb_count {
+	color: #c0c0c0 !important;
+}
+
+/* link colors */
+#b_results>li a, a, #b_results .b_no a {
+	color: #88aaaa;
+}
+
+/* visited link */
+a:visited, #b_results>li a:visited, #b_tween a:visited {
+	color: #377777;
+}
+
+/* results url */
+cite, #b_results cite.sb_crmb a, #b_results cite a.sb_metalink, #bk_wr_container cite a, .b_attribution {
+	color: #A3BE8C !important;
+}
+
+/* youtube video link */
+.vidr .vidr_info .title {
+	color: #88aaaa !important;
+}
+
+/* video source url */
+.vidr .vidr_meta_source {
+	color: #a3be8c !important;
+}
+
+/* video result */
+.vidr {
+	border-radius: 5px !important;
+}
+
+/* spotlight heading */
+.nse_tl_lk {
+	background-color: #88aaaa !important;
+}
+
+.nse_tl_lk* {
+	color: #fff !important;
+}
+
+/* spotlight heading arrow */
+.nse_tl .nse_tl_lk .ic:after {
+	border-left: none !important;
+}
+
+/* spotlight heading height */
+.nse_tl_lk .ic:before, .nse_tl_lk .ic:after {
+	top: 5px !important;
+}
+
+/* see all images bg */
+.iasmtab {
+	background-color: rgba(45, 45, 45, 0.3) !important;
+}
+
+.iasmtab a {
+	color: #fff !important;
+}
+
+/* highlighted tab */
+.b_scopebar .b_active {
+	border-bottom: 3px solid #A3BE8C !important;
+}
+
+/* code heading */
+.secHeading h3 {
+	color: #2d2d2d !important;
+}
+
+/* code sample */
+.techc_fraghl {
+	color: #2d2d2d !important;
+}
+
+/* "people also search for" image box */
+.rms_img {
+	border-radius: 10px !important;
+}
+
+/* wikipedia preview selected section */
+.tab-menu li.tab-active {
+	box-shadow: inset 0 -3px 0 0 #ab4642 !important;
+}
+
+/* remove bg from all wikipedia section tabs */
+.tab-menu li {
+	background: none !important;
+}
+
+/* round out scroll buttons */
+.tab-navr, .tab-navl {
+	border-radius: 10px !important;
+}
+
+/* "more definitions" link */
+#b_results .b_ans.b_mop .btm_sml .b_mopexpref .expansionCustomizedText {
+	color: #88aaaa !important;
+}
+
+/* ******** VIDEOS PAGE ********* */
+
+/* video title */
+.mc_vtvc_title {
+	color: #2d2d2d !important;
+}
+
+/* video source & author */
+.mc_vtvc_meta_block_sf, .mc_vtvc_meta_block_sf a {
+	color: #A3BE8C !important;
+}
+
+/* video info overlay */
+.vrhot.cont {
+	background-color: rgba(45, 45, 45, 0.3) !important;
+	border-radius: 10px !important;
+}
+
+/* safe search selected */
+.ftrP11 {
+	color: #2d2d2d !important;
+}
+
+/* safe search bg */
+.ftrHSe {
+	background: none !important;
+}
+
+/* ******** NEWS PAGE ********* */
+
+/* "personalize your news" link */
+.trk .txt {
+	color: #88aaaa !important;
+}
+
+/* selected source tab */
+.sfisd .sfisi, .sfisd .sfisi:hover {
+	border-bottom: 3px solid #A3BE8C !important;
+	color: #2d2d2d !important;
+}
+
+/* ******** SHOP PAGE ********* */
+
+/* store link */
+.br-sellers {
+	color: #A3BE8C !important;
+}
+
+/* ******** REWARDS IN BING SEARCH ********* */
+
+/* fix weird broken font for welcome text */
+.btOverlay .rqWcHeader, .rqWlcmPanel .rqTitle h2 {
+	font-family: 'Helvetica', sans-serif !important;
+	color: #2d2d2d !important;
+}
+
+/* begin quiz button */
+.cbtn.b_highlighted input {
+	background: #88aaaa !important;
+	border-color: #88aaaa !important;
+}
+
+/* animate begin quiz button hover */
+.cbtn.b_highlighted input:hover {
+	transform: scale(1.25);
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+}
+
+/* map overlay */
+.mv_lm {
+	background: rgba(45, 45, 45, 0.3) !important;
+	border-radius: 10px !important;
+}
+
+/* this doesnt work lol */
+/* daily poll inputs */
+#Radio00:hover, .pl_Radio:hover {
+	background: #88aaaa !important;
+}
+
+/* ******** MY SAVES PAGE ********* */
+
+/* "all saved results" that appears on first click */
+.first-run-coach-mark {
+	background-color: #88aaaa !important;
+}
+
+/* change text color for first click "all saved" */
+.ms-first-run-coach-mark__button_primary.ms-first-run-coach-mark__button_primary {
+	color: #88aaaa !important;
+}
+
+/* the arrow on the left for the above */
+.first-run-coach-mark::before {
+	border-right-color: #88aaaa !important;
+}
+
+/* text color when there are no saves */
+.true-collection__samples-title, .true-collection__samples-explore, .card__title {
+	color: #2d2d2d !important;
+}
+
+/* center card titles and labels */
+.card__title, .card__label {
+	text-align: center !important;
+}
+
+/* new collection link color */
+.nav__new {
+	color: #A3BE8C !important;
+}
+
+/* selected save tab */
+.pb-title-nav-strip__nav-link_selected {
+	border-bottom-color: #A3BE8C !important;
+}
+
+/* remove "all saves" background */
+.nav__allsaves_withfilter .nav__allsaves {
+	background: none !important;
+}
+/*}*/
