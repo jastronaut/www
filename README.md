@@ -12,6 +12,7 @@ a collection of userstyles for websites i use. you need the stylish extension to
 
 - bing: bing search css (yes i use bing for the rewards points don't @ me)
 - 4ch: 4chan css
+- old.reddit: soft pink style for old.reddit.com
 
 old:
 

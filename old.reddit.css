@@ -1,0 +1,607 @@
+body {
+    font-family: SF Pro Display;
+}
+
+.title {
+    font-family: Futura;
+    font-weight: bolder;
+}
+
+.premium-banner-outer {
+    display: none;
+}
+
+/*
+ * headers
+*/
+#header {
+    border: none;
+    background: #ffe8e5;
+}
+
+#header-bottom-right {
+    background: white;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.user .userkarma {
+    font-weight: initial;
+}
+
+.linkinfo {
+    border: none;
+    background-color: #ffe8e5;
+    border-radius: 0.5rem;
+    padding: 1rem
+}
+
+a {
+    color: #e05e5e;
+}
+
+.tabmenu li a {
+    border: none;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+
+.tabmenu .choice {
+    background: #e05e5e;
+    color: white;
+}
+
+.tabmenu li.selected a {
+    color: #ffa79b;
+    border: none;
+}
+
+.pagename {
+    font-variant: normal;
+    font-family: Futura
+}
+
+.separator {
+    color: black;
+}
+
+#search input[type="text"] {
+    border-radius: 0.25rem;
+    border-color: #cacaca;
+    font-family: Futura;
+}
+
+#sr-header-area .redesign-beta-optin {
+    display: none;
+}
+
+#sr-header-area {
+    text-transform: initial;
+    font-size: 0.6rem;
+    border: none;
+    background: none;
+    color: white;
+}
+
+#sr-more-link {
+    background: white;
+    border-bottom-left-radius: 0.5rem;
+}
+
+/* subreddits dropdown */
+.drop-choices {
+    border: none;
+}
+
+#sr-header-area .drop-choices.srdrop {
+    margin-left: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+#sr-header-area .drop-choices.srdrop a.choice {
+    transition: 0.15s ease all;
+    padding: 0.25rem 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#sr-header-area .drop-choices.srdrop a.choice:hover {
+    transition: 0.15s ease all;
+    background: #e1e1e1;
+}
+
+/*
+* sidebar
+*/
+@media screen and (max-width: 700px) {
+    .side {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .side {
+        margin-right: 2rem;
+        opacity: 0.3;
+        transition: 0.15s ease-out
+
+    }
+
+    .side:hover {
+        opacity: 1;
+    }
+
+    .side .search {
+        opacity: 1;
+    }
+}
+
+/* multireddit add */
+.hover-bubble {
+    border: none;
+    font-size: 0.9rem;
+}
+
+/* post submission */
+.morelink {
+    background: #ffa79b;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: initial;
+    font-family: Futura;
+    letter-spacing: initial;
+    height: auto;
+    cursor: pointer;
+    transition: 0.15s ease all;
+}
+
+.morelink:hover {
+    background: #f59a8d;
+    transition: 0.15s ease all;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.morelink a {
+    color: white;
+}
+
+.morelink .nub {
+    display: none;
+}
+
+.disabled .morelink a {
+    background: #f3f3f3;
+}
+
+.disabled .morelink a:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* sub info */
+.titlebox h1 {
+    font-family: Futura;
+}
+
+.fancy-toggle-button .remove {
+    /*    background: #ff6969;*/
+    background: #c84a4a;
+    border: none;
+    padding: 0.15rem 0.25rem;
+}
+
+.fancy-toggle-button .remove:hover {
+    background: #a43333;
+    transition: 0.15s ease all;
+}
+
+.subscribers {
+    color: #7b7b7b;
+}
+
+.titlebox form.toggle,
+.leavemoderator {
+    color: #7b7b7b;
+}
+
+.tagline,
+.tagline a,
+.search-result-meta,
+.search-result-meta a {
+    color: #ffa79b;
+}
+
+.sidecontentbox .content {
+    border: 1px solid #cacaca;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.25rem;
+}
+
+.titlebox .bottom {
+    border-top: 1px solid #cacaca;
+}
+
+/*
+* post
+*/
+
+.archived-infobar{
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.archived-infobar .md p {
+    color: #2d2d2d;
+}
+
+.thing .title:visited {
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.domain,
+.domain a {
+    color: #7b7b7b;
+}
+
+.thumbnail.self {
+    display: none;
+}
+
+.tagline,
+.tagline a,
+.search-result-meta,
+.search-result-meta a {
+    color: #7b7b7b;
+}
+
+/* self post content */
+.link .usertext-body .md {
+    border: none;
+    background: #f3f3f3;
+    padding: 0.5rem 1rem;
+    font-family: SF Pro Display;
+    font-size: .9rem;
+}
+
+
+/*
+* comments
+*/
+.usertext-edit textarea {
+    border: 1px solid #cacaca;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    font-family: SF Pro Display;
+}
+
+.usertext {
+    margin: 0.25rem 0.75rem;
+}
+
+.comment .author {
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+.tagline .submitter,
+.author .submitter .may-blank {
+    background: linear-gradient(270deg, #e05e5e, #949cf2);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+a.author {
+    color: black;
+    transition: 0.15s ease color;
+}
+
+a.author:hover {
+    text-decoration: underline;
+    color: #e05e5e;
+    transition: 0.15s ease color;
+}
+
+.tagline .score::before {
+    content: '—  '
+}
+
+.entry {
+    transition: 0.1s ease-in all;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.commentarea .entry:hover {
+    background: #f3f3f3;
+    transition: 0.1s ease-in all;
+}
+
+.usertext.grayed .usertext-body {
+    background: rgba(0, 0, 0, 0);
+    color: #cacaca;
+}
+
+div.grayed div.md > p {
+    color: #7b7b7b;
+}
+
+.linkinfo .shortlink input {
+    width: 80%;
+    border-radius: 0.25rem;
+    border-color: #cacaca;
+    font-family: Fantasque Sans Mono;
+    padding: 0.25rem 0.5rem;
+    color: #7b7b7b;
+    font-size: 0.8rem;
+}
+
+.linkinfo .shortlink {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #7b7b7b;
+}
+
+.score .number,
+.score .word {
+    display: none;
+}
+
+.linkinfo .score {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.md a {
+    text-decoration: underline;
+    color: #e05e5e;
+}
+
+/* comments sort */
+@keyframes slide-drop-down {
+    0% {
+        height: 1px;
+    }
+
+    100% {
+        height: 23%;
+    }
+}
+
+.drop-choices.lightdrop {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.drop-choices.lightdrop.inuse {
+    animation: 0.15s slide-drop-down;
+}
+
+.drop-choices.lightdrop > a.choice {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0.25rem 0.5rem;
+}
+
+.drop-choices.lightdrop > a.choice:hover {
+    background: #f3f3f3;
+}
+
+/*
+ * subreddits page
+ */
+.searchpane {
+    background: #f3f3f3;
+    border-radius: 0.5rem;
+}
+
+.raisedbox {
+    border: none;
+}
+
+.subscription-box .title {
+    color: #e05e5e;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: SF Pro Display;
+}
+
+.box-separator {
+    border-bottom: 1px solid #cacaca;
+}
+
+p.titlerow > a.title {
+    color: #e05e5e;
+}
+
+p.titlerow > a.title:hover {
+    text-decoration: underline;
+}
+
+.infobar {
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .subreddit .midcol {
+        width: initial !important;
+    }
+}
+
+.fancy-toggle-button .add {
+    border: none;
+    background: #79b34e;
+    padding: 0.15rem 0.25rem;
+    min-width: 1rem;
+}
+
+.nextprev a,
+.next-suggestions a {
+    background: #f3f3f3;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    transition: .15s ease all;
+}
+
+.nextprev a:hover,
+.next-suggestions a:hover {
+    background: #cacaca;
+    border: none;
+    transition: .15s ease all;
+}
+
+/*
+ * front page
+*/
+.thing .title {
+    color: black
+}
+
+/*
+* mods list
+*/
+.moderator-table > table > tbody > tr {
+    padding: 0.25rem;
+}
+
+@media screen and (max-width: 850px) {
+    .usertable {
+        width: 50%;
+    }
+}
+
+.usertable {
+    font-size: 0.8rem;
+}
+
+.usertable td,
+.usertable th {
+    padding: 0.25rem;
+}
+
+.usertable tr:hover {
+    background: #f3f3f3;
+}
+
+/*
+* subreddit wiki
+*/
+.wiki-page .pageactions .wikiaction-current {
+    background: #ffa79b;
+    transition: 0.15s;
+}
+.wiki-page .pageactions .wikiaction-current:hover {
+    background: #e05e5e;
+}
+
+.wiki-page .pageactions .wikiaction {
+    transition: 0.15s;
+}
+.wiki-page .pageactions .wikiaction:hover {
+    background: #ffa79b;
+    color: white;
+}
+@media screen and (max-width: 850px) {
+    .wiki-page .wiki-page-content .wiki.md {
+        display: flex;
+        flex-direction: column;
+    }
+    .wiki-page .wiki-page-content .wiki > .toc > ul {
+        width: 100%;
+        float: initial;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .wiki-page-content .md h1, .wiki-page-content .md h2 {
+        color: black;
+        font-family: Futura;
+    }
+
+}
+
+/*
+* submit post
+*/
+
+.formtabs-content .infobar {
+    font-size: 0.9rem;
+}
+
+.roundfield, #title-field, #text-field {
+    background: #ffe8e5;
+    border-radius: 0.5rem;
+}
+
+.roundfield textarea, .roundfield input[type="text"], .roundfield input[type="url"], .roundfield input[type="password"], .roundfield input[type="number"], #compose-message .roundfield select {
+    border: 1px solid #cacaca;
+    border-radius: 0.5rem;
+}
+
+.usertext {
+    margin: 0;
+}
+
+#suggested-reddits {
+    display: none;
+}
+
+.submit_text h1 {
+    color: black;
+    font-family: Futura;
+    font-size: 1rem;
+}
+
+.roundfield input[type="text"]:disabled {
+    background: #f3f3f3
+}
+
+.content.submit .info-notice {
+    background: #f6e69f;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.formtabs-content {
+border-top: 1px solid #cacaca;
+    padding: 1rem;
+}
+
+/*
+* user prefs
+*/
+
+.content .preftable {
+    font-size: 0.9rem;
+}
+
+.preftable td.prefright {
+    border-bottom: 1px solid #cacaca;
+    padding: 1rem;
+}
+
+.pretty-form.short-text input[type="text"].number {
+    border: 1px solid #cacaca;
+    box-shadow: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+/*
+* messages
+*/
+.message .subject {
+    font-size: 1rem;
+}
+
