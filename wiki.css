@@ -1,0 +1,40 @@
+@media screen and (min-width: 982px) {
+	.mw-body {
+		padding-right: 12em;
+		padding-left: 12em;
+	}
+}
+
+.vector-body {
+	font-size: calc(1.15em * 0.875);
+}
+
+.mw-body {
+	margin-left: auto;
+
+	border: none;
+}
+
+#mw-panel {
+	display: none;
+}
+
+#mw-page-base {
+	background: none;
+}
+
+.vector-menu-tabs li {
+	background: none;
+	border: none;
+}
+
+.infobox.ib-settlement.vcard, tbody .infobox.ib-settlement.vcard {
+	background-color: var(--darkreader-neutral-background);
+	border-color: rgba(0,0,0,0);
+}
+
+/* images */
+div.thumbinner, .thumbimage {
+	border: none;
+}
+
